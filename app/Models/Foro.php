@@ -27,6 +27,6 @@ class Foro extends Model
     
     public function subforos()
     {
-        return $this->hasMany(Subforo::class);
+       return $this->hasMany(\App\Models\SubForo::class);
     }
 }
