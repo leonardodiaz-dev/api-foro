@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['https://nexusforo-6e8783.netlify.app'],
 
     'allowed_origins_patterns' => [],
 

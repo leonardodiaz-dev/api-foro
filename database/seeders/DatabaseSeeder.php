@@ -26,14 +26,14 @@ class DatabaseSeeder extends Seeder
             'role' => 'admin',
             'password' => bcrypt('12345678')
         ]);
-        $this->call(
-            [
-                ForoSeeder::class,
-                SubforoSeeder::class,
-                TemaSeeder::class,
-                RespuestaSeeder::class
-            ]
-        );
+        // $this->call(
+        //     [
+        //         ForoSeeder::class,
+        //         SubforoSeeder::class,
+        //         TemaSeeder::class,
+        //         RespuestaSeeder::class
+        //     ]
+        // );
         // Foro::factory(10)->create();
         // SubForo::factory(40)->create();
         // Tema::factory(100)->create();
